@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="loggin">Loggin:</string>
+    <string name="pass">Password:</string>
+    <string name="rep_pass">Repetir password:</string>
+    <string name="correo">Correo:</string>
+    <string name="user_info">Ingrese usuario</string>
+    <string name="pass_info">Ingrese pass</string>
+    <string name="rpass_info">Ingrese pass</string>
+    <string name="correo_info">Ingrese correo</string>
+    <string name="sexo">Sexo:</string>
+    <string name="mas">Masculino</string>
+    <string name="fem">Femenino</string>
+    <string name="fecha">Fecha de nacimiento</string>
+    <string name="aceptar">Aceptar</string>
+
+    <string-array name="ciudades">
+        <item>Barranquilla</item>
+        <item>Cartagena</item>
+        <item>Bucaramanga</item>
+        <item>Cali</item>
+        <item>Bogotá</item>
+        <item>Medellín</item>
+
+    </string-array>
+
+</resources>

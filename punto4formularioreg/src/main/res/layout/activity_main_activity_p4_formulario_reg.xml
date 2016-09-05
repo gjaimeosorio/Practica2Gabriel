@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#b8b894"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mainactivity.gabrielosorio.com.punto4formularioreg.MainActivityP4FormularioReg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="@string/loggin"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/usuario"
+            android:textSize="20dp"
+            android:hint="@string/user_info"
+            android:background="#d6d6c2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="@string/pass"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/contraseña"
+            android:textSize="20dp"
+            android:hint="@string/pass_info"
+            android:background="#d6d6c2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="@string/rep_pass"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/repetir"
+            android:textSize="20dp"
+            android:hint="@string/pass_info"
+            android:background="#d6d6c2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="correo electronico:"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="20dp"
+            android:id="@+id/correo"
+            android:hint="@string/correo_info"
+            android:background="#d6d6c2"
+            android:inputType="textWebEmailAddress"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Sexo:"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sexo">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Masculino"
+                android:id="@+id/masculino"
+                android:background="#d6d6c2"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Femenino"
+                android:id="@+id/femenino"
+                android:background="#d6d6c2"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Fecha de nacimiento "/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="buscar fecha"
+            android:onClick="showDatePickerDialog"
+            android:textColor="@color/white"
+            android:background="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="ciudad "/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/ciudad">
+        </Spinner>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="hobbies "/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Jugar tenis"
+            android:id="@+id/tenis"
+            android:background="#d6d6c2"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Salir a comer"
+            android:id="@+id/comer"
+            android:background="#d6d6c2"/>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Ir a cine"
+            android:id="@+id/cine"
+            android:background="#d6d6c2"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="Videojuegos"
+            android:id="@+id/video"
+            android:background="#d6d6c2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="ACEPTAR"
+            android:id="@+id/aceptar"
+            android:textColor="@color/white"
+            android:background="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/verificar"
+            android:background="#d6d6c2"/>
+    </LinearLayout>
+
+</LinearLayout>

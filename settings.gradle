@@ -1,0 +1,1 @@
+include ':app', ':punto1layout', ':punto2calculadora', ':punto3areas', ':punto4formularioreg'
